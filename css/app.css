@@ -1,0 +1,63 @@
+@charset "utf-8";
+/* CSS Document */
+
+.hidden
+{
+    display: none;
+}
+
+#rokuLogo
+{
+    height: 50px;
+    float: left;
+}
+
+#logoWrap
+{
+    text-align: center; 
+}
+
+#logo
+{
+    margin: 0 auto;
+    margin-right: 120px;
+    height: 70px;
+}
+
+#navWrap
+{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(255, 249, 158);
+    padding: 5px 0 5px 0;
+}
+
+#headNav ul li
+{
+    margin-right: 60px;
+    display: inline;
+}
+
+#headNav ul li:last-child
+{
+    margin-right: 0px;
+}
+
+#headNav ul li a
+{
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    padding: 20px;
+    color: black;
+}
+
+#headNav ul li a:hover
+{
+    background-color: rgb(243, 236, 134);
+}
+
+#catagoriesCon
+{
+    clear: both;
+}
